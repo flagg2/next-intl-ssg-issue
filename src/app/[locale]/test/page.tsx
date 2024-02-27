@@ -5,7 +5,7 @@ export default function TestPage({
 }: {
   params: { locale: string };
 }) {
-  unstable_setRequestLocale;
+  //   unstable_setRequestLocale(locale);
   return (
     <div>
       <h1>Test Page</h1>
